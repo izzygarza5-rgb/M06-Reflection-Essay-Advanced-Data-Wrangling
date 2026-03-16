@@ -1,0 +1,169 @@
+---
+title: "M06-Reflection Essay-Advanced Data Wrangling"
+author: "Isabelle Garza"
+date: '03/15/26'
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    embed-resources: true
+editor: visual
+execute: 
+  freeze: auto
+---
+
+# **Tidyverse tricks**
+
+-   Learned how to use **`across()`** to apply functions to multiple columns at once instead of repeating code.
+
+-   Saw how **`slice_max()`** and **`slice_min()`** can quickly select top or bottom rows based on a variable.
+
+-   Learned about **`count()`** and `add_count()` for quickly summarizing data frequencies.
+
+-   Discovered `pivot_longer()` and `pivot_wider()` for reshaping datasets between wide and long formats.
+
+-   Learned how `separate()` and `unite()` can split or combine columns efficiently.
+
+-   These tricks make code shorter, cleaner, and easier to read.
+
+# **David Robinson’s impromptu screencast performance**
+
+-   His screencast was impressive because he analyzed data quickly and confidently in real time.
+
+-   He demonstrated how experienced data scientists think through problems while coding.
+
+-   I could understand the overall workflow, such as data cleaning, exploration, and visualization.
+
+-   Some of the specific functions and shortcuts were difficult to follow because he worked very fast.
+
+-   It showed how powerful the Tidyverse can be when someone is very familiar with it.
+
+# **Initial vs further data cleaning processes**
+
+## Initial cleaning:
+
+-   Focused on basic preparation of the dataset.
+
+-   Removed missing values and irrelevant columns.
+
+-   Renamed variables and formatted the data structure.
+
+## Further cleaning:
+
+-   Involved more detailed filtering and transformation.
+
+-   Combined datasets, standardized values, and created new variables.
+
+-   Ensured the dataset was ready for analysis.
+
+## Main differences:
+
+-   Initial cleaning prepares the raw data.
+
+-   Further cleaning refines the dataset for specific analysis goals.
+
+-   Additional filtering in the second stage often reduces the final sample size.
+
+# **Impression of Revealjs presentations**
+
+-   Revealjs allows users to create interactive presentation slides using Quarto and code.
+
+-   Slides are written in Markdown, which makes them easy to organize and edit.
+
+-   It supports animations, transitions, and embedded code or visuals.
+
+-   It integrates well with R, data analysis, and reproducible research.
+
+## Strengths compared to PowerPoint:
+
+-   Easily integrates code, charts, and data outputs.
+
+-   Reproducible and easy to update.
+
+-   Good for technical or data-focused presentations.
+
+## Weaknesses compared to PowerPoint:
+
+-   Requires basic coding knowledge.
+
+-   Design customization can be less intuitive.
+
+-   PowerPoint may be easier for quick visual editing.
+
+# **My Revealjs presentation**
+
+::: callout-important
+## RPubs link
+
+<https://rpubs.com/isabelle-garza/1410539>
+:::
+
+-   My presentation is about how to improve marketing strategies.
+
+-   It explains how a website can showcase marketing work, including pages like a home page, marketing projects, dashboards, and Google Analytics insights.
+
+-   From this experience, I learned how to structure slides using Quarto and Revealjs.
+
+-   I also learned how to publish presentations online using RPubs.
+
+# **Advanced wrangling concepts**
+
+> 1\. `left_join()`
+>
+> When to use:
+>
+> -   Used to combine two datasets based on a shared key, keeping all rows from the first dataset.
+
+```{r}
+library(dplyr)
+
+df1 <- data.frame(id = c(1,2,3), name = c("A","B","C"))
+df2 <- data.frame(id = c(1,2,4), score = c(90,85,88))
+
+left_join(df1, df2, by = "id")
+```
+
+> 2\. `inner_join()`
+>
+> When to use:
+>
+> -   Combines two datasets but keeps only matching rows in both tables.
+
+```{r}
+inner_join(df1, df2, by = "id")
+```
+
+> 3\. `mutate()`
+>
+> When to use:
+>
+> -   Used to create or modify variables in a dataset.
+
+```{r}
+data <- data.frame(price = c(10,20,30))
+
+data %>%
+mutate(tax = price * 0.1)
+```
+
+# **What I liked most about wrangling tools**
+
+-   I liked how dplyr functions make data manipulation more organized and readable.
+
+-   The pipe operator `%>%` makes it easy to chain multiple steps together in a clear workflow.
+
+-   Wrangling tools help turn messy datasets into clean, usable data for analysis and visualization.
+
+-   Once the data is properly structured, creating insights and charts becomes much easier.
+
+# **Challenges when learning wrangling tools**
+
+-   One challenge is remembering many different functions and when to use them.
+
+-   Sometimes it can be difficult to understand how multiple transformations work together in a pipeline.
+
+-   To overcome this, I can practice the basic functions more and review examples regularly.
+
+-   Gradually building familiarity with the tools will make it easier to follow more advanced workflows.

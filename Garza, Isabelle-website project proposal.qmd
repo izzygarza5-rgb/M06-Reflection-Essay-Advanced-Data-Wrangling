@@ -1,0 +1,169 @@
+---
+title: "How to Improve Marketing Strategies"
+subtitle: "Proposal Presentation"
+author: "Isabelle Garza"
+institute: "IBM 3202, Cal Poly Pomona"
+date: "03/15/26"
+format: 
+  revealjs:
+    theme: serif
+    width: 1600
+    height: 900
+    footer: How to Improve Marketing Strategies
+    transition: slide
+    transition-speed: default
+    incremental: false
+    toc: true
+    toc-depth: 1
+    slide-number: true
+    scrollable: true
+    smaller: true
+    code-fold: false
+    code-overflow: wrap
+    number-sections: false
+    number-depth: 5
+    embed-resources: true
+    css: styles.css
+editor: visual
+execute: 
+  echo: true
+  freeze: auto
+---
+
+# Introduction
+
+::: {.incremental style="font size: 1.5em; text-align: center"}
+-   Marketing strategies help businesses reach the right audience
+
+-   Strong strategies improve engagement, conversions, and brand awareness
+
+-   This presentation explains ways to improve marketing strategies through planning, content, and analytics
+:::
+
+# Why Marketing Strategies Need Improvement
+
+::: {.incremental style="font size: 1.5em; text-align: center"}
+-   Some campaigns do not reach the right target audience
+
+-   Businesses may post content without clear goals
+
+-   Without data, it is hard to know what is working
+
+-   Marketing strategies improve when they are organized and measurable
+:::
+
+# My Plan for the Website
+
+::: {.incremental style="font size: 1.5em; text-align: center"}
+-   A well-organized marketing website could include:
+
+    -   **Home Page**\
+        Introduction and personal statement
+
+    -   **Marketing Projects**\
+        Showcase of campaigns, case studies, and performance results
+
+    -   **Dashboard\
+        ** Visual display of marketing data and performance metrics
+
+    -   **Google Analytics\
+        ** Insights about website traffic and user behavior
+:::
+
+# Home Page
+
+::: {.incremental style="font size: 1.5em; text-align: center"}
+-   Introduces the purpose of the website
+
+-   Gives a short personal or professional statement
+
+-   Creates a strong first impression
+
+-   Helps visitors understand the focus of the website
+:::
+
+# Marketing Projects
+
+::: {.incremental style="font size: 1.5em; text-align: center"}
+-   A blog-style page that highlights marketing work could include:
+
+    -   campaign summaries
+
+    -   data visualizations
+
+    -   audience insights
+
+    -   results and performance metrics
+:::
+
+# Dashboard
+
+::: {.incremental style="font size: 1.5em; text-align: center"}
+-   A dashboard helps present data clearly and could include:
+
+    -   website traffic
+
+    -   conversion rates
+
+    -   engagement levels
+
+    -   campaign performance
+
+-   Dashboards make marketing decisions more data-driven
+:::
+
+# Revealjs Presentation
+
+::: {.incremental style="font size: 1.5em; text-align: center"}
+-   Revealjs makes presentations more interactive and organized
+
+-   It is useful for storytelling and presenting ideas visually
+
+-   It allows clean slide design for marketing topics
+
+-   It works well with Quarto in RStudio
+:::
+
+# Google Analytics
+
+::: {.incremental style="font size: 1.5em; text-align: center"}
+-   Google Analytics helps measure website performance and can show:
+
+    -   number of visitors
+
+    -   traffic sources
+
+    -   most popular pages
+
+    -   user behavior
+
+-   This helps improve future marketing strategies
+:::
+
+# How to Improve Marketing Strategies
+
+::: {.incremental style="font size: 1.5em; text-align: center"}
+-   Set clear marketing goals
+
+-   Understand the target audience
+
+-   Use data to guide decisions
+
+-   Track performance regularly
+
+-   Adjust campaigns based on results
+:::
+
+# Conclusion
+
+::: {.incremental style="font size: 1.5em; text-align: center"}
+-   Better marketing strategies come from planning, organization, and analytics
+
+-   A strong website can present marketing work clearly
+
+-   Tools like dashboards and Google Analytics help improve results over time
+:::
+
+# Thank You
+
+Questions?
